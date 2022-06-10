@@ -5,6 +5,12 @@ import Index from '../views/E_Index.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  // 移动端
+  {
+    path: '/vindex',
+    name: 'Vindex',
+    component: () => import('../views/Vindex.vue'),
+  },
 
   // 后台系统路由
   {
